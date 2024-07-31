@@ -1,0 +1,187 @@
+{
+  "@type": "AnnotationStore",
+  "@id": "I34F1AF6A",
+  "resources": [
+    {
+      "@type": "TextResource",
+      "@id": "bab4",
+      "@include": "base/bab4.txt"
+    }
+  ],
+  "annotationsets": [
+    {
+      "@type": "AnnotationDataSet",
+      "@id": "Meta_Data",
+      "keys": [
+        {
+          "@type": "DataKey",
+          "@id": "id_"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "title"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "author"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "created_at"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "source"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "type"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "language"
+        }
+      ],
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "1e335d7bb8b04d6fabe2f95d59406608",
+          "key": "id_",
+          "value": {
+            "@type": "String",
+            "value": "12345"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "02bd8822079f4c89a9b0a78cf9667e30",
+          "key": "title",
+          "value": {
+            "@type": "String",
+            "value": " Source Title 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "4f90effa9f644133bb7c0f901969e1b8",
+          "key": "title",
+          "value": {
+            "@type": "String",
+            "value": " Source Title 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "76f83c07c2e7421d8e82a1cff368690e",
+          "key": "author",
+          "value": {
+            "@type": "String",
+            "value": " Source Author 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "c34b0cbb612f412586d97adca7a36170",
+          "key": "author",
+          "value": {
+            "@type": "String",
+            "value": " Source Author 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "2f7f04e0c6794ce5a564dfde7b38a9d8",
+          "key": "created_at",
+          "value": {
+            "@type": "String",
+            "value": "2024-07-31 11:34:35.497753"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "d4c09654c45846c699f70ca7546821c6",
+          "key": "source",
+          "value": {
+            "@type": "String",
+            "value": " Source"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "f1da30e376ee419dbbd731fa6ac15096",
+          "key": "type",
+          "value": {
+            "@type": "String",
+            "value": "Tibetan_Segment"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "08b78cb41f0245d68efdbe132f18b0c2",
+          "key": "language",
+          "value": {
+            "@type": "String",
+            "value": "Tibetan"
+          }
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "Annotation",
+      "@id": "5d4c30ad93f349cfa826de99acbd2b3a",
+      "target": {
+        "@type": "ResourceSelector",
+        "resource": "bab4"
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "1e335d7bb8b04d6fabe2f95d59406608",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "02bd8822079f4c89a9b0a78cf9667e30",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "4f90effa9f644133bb7c0f901969e1b8",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "76f83c07c2e7421d8e82a1cff368690e",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "c34b0cbb612f412586d97adca7a36170",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "2f7f04e0c6794ce5a564dfde7b38a9d8",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "d4c09654c45846c699f70ca7546821c6",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "f1da30e376ee419dbbd731fa6ac15096",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "08b78cb41f0245d68efdbe132f18b0c2",
+          "set": "Meta_Data"
+        }
+      ]
+    }
+  ]
+}
